@@ -150,7 +150,7 @@ const Projects = () => {
             <div className="col-span-3 row-span-3 row-start-7 bg-cyan-600 rounded-lg">
               <div className="card p-4 flex justify-between items-start gap-2">
                 <Image
-                  src="/assets/HalaTechnologyWeb.webp"
+                  src="/assets/halaTechnologyWeb.webp"
                   alt="Hala Technology"
                   aria-label="Hala Technology"
                   width={300}
@@ -311,7 +311,7 @@ const Projects = () => {
             <Parallax opacity={[0.3, 2]}>
               <div className="card bg-cyan-600 p-4 m-4 rounded-md">
                 <Image
-                  src="/assets/HalaTechnologyWeb.webp"
+                  src="/assets/halaTechnologyWeb.webp"
                   alt="Hala Technology"
                   aria-label="Hala Technology"
                   width={300}
