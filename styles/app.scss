@@ -1,0 +1,241 @@
+//start global varibales
+$main: #85d8ce;
+$secondary: #085078;
+$light: #f5f5fa;
+$dark: #0f172a;
+//end global varibales
+//start global components
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+::selection {
+  background-color: $light;
+  color: $dark;
+}
+*::-webkit-scrollbar {
+  width: 0;
+}
+a,
+img,
+video,
+button,
+h1,
+h2 {
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+main {
+  background-image: url("../public/assets/main-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+.sm-image {
+  @media (min-width: 769px) {
+    display: none;
+  }
+}
+.lg-menu {
+  svg {
+    margin-right: 0.3rem;
+  }
+}
+.lg-menu,
+.lg-image,
+.left-bar {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.menu-toggle {
+  @media (min-width: 769px) {
+    display: none;
+  }
+}
+.menu {
+  padding-top: 5rem;
+  .menu-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem;
+    @media screen and (max-width: 768px) {
+      gap: 4rem;
+    }
+    a {
+      font-size: 6rem;
+      @media screen and (max-width: 768px) {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+.left-bar {
+  position: fixed;
+  top: 20%;
+  left: 2%;
+  .line {
+    width: 2px;
+    height: 250px;
+    background-color: $main;
+  }
+}
+
+.box span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.box span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.box span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+.cooperate,
+.about-me,
+.cta .content > .box {
+  background-repeat: no-repeat;
+}
+.about-me {
+  background-image: url("../public/assets/about-bg.svg");
+  background-size: 20%;
+  background-position: right;
+  @media screen and (max-width: 768px) {
+    background-image: none;
+  }
+}
+.cooperate {
+  background-image: url("../public/assets/cooperate-bg.svg");
+  background-size: contain;
+  background-position: 100%;
+  @media screen and (max-width: 768px) {
+    background-image: none;
+  }
+}
+.cta {
+  .content {
+    .box {
+      background-image: url("../public/assets/cta-bg.svg");
+      background-position: left;
+      @media screen and (max-width: 768px) {
+        background-image: unset;
+      }
+    }
+  }
+}
+footer {
+  padding: 0 5rem;
+  @media screen and (max-width: 768px) {
+    gap: 1rem;
+    margin-bottom: 4rem;
+  }
+  .left,
+  .right {
+    h2,
+    p {
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
+    }
+  }
+}
+.dark {
+  .left-bar {
+    svg {
+      fill: $dark;
+    }
+  }
+  .group {
+    color: $light;
+  }
+  .menu-items {
+    a {
+      color: $dark;
+    }
+  }
+  .box span {
+    border-bottom: 2px solid $dark;
+    border-right: 2px solid $dark;
+  }
+  .title {
+    h2 {
+      color: $secondary;
+    }
+  }
+  .blog {
+    .content {
+      .topic-title {
+        color: $secondary;
+      }
+      .topic-content {
+        color: $dark;
+      }
+    }
+  }
+}
+.light {
+  .left-bar {
+    svg {
+      fill: $light;
+    }
+  }
+  .menu-items {
+    a {
+      color: $light;
+    }
+  }
+  .box span {
+    border-bottom: 2px solid $light;
+    border-right: 2px solid $light;
+  }
+  .title {
+    h2 {
+      color: $main;
+    }
+  }
+  .blog {
+    .content {
+      .topic-title {
+        color: $main;
+      }
+      .topic-content {
+        color: $light;
+      }
+    }
+  }
+}
+//end global components
