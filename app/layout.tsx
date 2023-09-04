@@ -2,6 +2,7 @@ import "./globals.css";
 import { Parallax } from "./Parallax";
 import { Providers } from "./providers";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Phudu } from "next/font/google";
 
 const phudu = Phudu({
@@ -151,6 +152,7 @@ export default function RootLayout({
         <Providers>
           <Parallax>{children}</Parallax>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
