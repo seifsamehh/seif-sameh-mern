@@ -17,7 +17,7 @@ const Hero = () => {
       </Parallax>
       <Parallax scale={[1, 1.5]}>
         <h1
-          className={`${myFont.className} min-[290px]:text-5xl md:text-9xl my-4 text-center`}
+          className={`${myFont.className} min-[290px]:text-4xl md:text-9xl my-4 text-center`}
         >
           Seif Eldin Sameh
         </h1>
