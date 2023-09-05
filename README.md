@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Seif Eldin Sameh
 
-First, run the development server:
+![logo](https://i.imgur.com/ja766DN.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 About Me
+I am a MERN stack web developer with 3+ years of experience in building scalable and user-friendly web applications. I have a strong understanding of JavaScript, MongoDB, Express, React, Next, and Node.js. I am also proficient in using web development tools and technologies such as Git, GitHub, and Strapi. I am a highly motivated and results-oriented individual with a proven track record of success. I am confident that I can use my skills and experience to make a significant contribution to your company.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- Light/dark mode toggle
+- Live previews
+- Cross-platform
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Demo](https://seif-sameh-mern.vercel.app/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Client:** Next, TailwindCSS, TypeScript, NextUI
+
+**Server:** Node, Express, MongoDB
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Main Color | ![#85d8ce](https://via.placeholder.com/10/85d8ce?text=+) #85d8ce |
+| Secondary Color | ![#085078](https://via.placeholder.com/10/085078?text=+) #085078 |
+| Light Color | ![#f5f5fa](https://via.placeholder.com/10/f5f5fa?text=+) #f5f5fa |
+| Dark Color | ![#0f172a](https://via.placeholder.com/10/0f172a?text=+) #0f172a |
+
+
+## Screenshots
+
+![screenshot](https://i.imgur.com/H6uqDFh.png)
+
