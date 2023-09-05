@@ -1,7 +1,7 @@
 
 # Seif Eldin Sameh
 
-[logo](https://i.imgur.com/ja766DN.png)
+![logo](https://i.imgur.com/ja766DN.png)
 
 
 ## 🚀 About Me
@@ -12,13 +12,12 @@ I am a MERN stack web developer with 3+ years of experience in building scalable
 
 - Light/dark mode toggle
 - Live previews
-- Fullscreen mode
-- Cross platform
+- Cross-platform
 
 
 ## Demo
 
-[Demo]([https://i.imgur.com/ja766DN.png](https://seif-sameh-mern.vercel.app/)
+[Demo](https://seif-sameh-mern.vercel.app/)
 
 
 ## Tech Stack
@@ -39,5 +38,5 @@ I am a MERN stack web developer with 3+ years of experience in building scalable
 
 ## Screenshots
 
-[screenshot](https://i.imgur.com/H6uqDFh.png)
+![screenshot](https://i.imgur.com/H6uqDFh.png)
 
