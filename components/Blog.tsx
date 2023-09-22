@@ -131,6 +131,124 @@ const Blog = () => {
                 Read more
               </Link>
             </div>
+
+            <div>
+              <div className="relative">
+                <Image
+                  className="object-cover object-center w-full h-64 rounded-lg lg:h-80"
+                  src="/assets/post3.webp"
+                  alt="logo"
+                  width={400}
+                  height={400}
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPkCKioBwACiQFRCR8qmwAAAABJRU5ErkJggg=="
+                />
+
+                <div className="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900">
+                  <Image
+                    className="object-cover object-center w-10 h-10 rounded-full"
+                    src="/assets/icon-512x512.png"
+                    alt="logo"
+                    width={80}
+                    height={80}
+                    loading="lazy"
+                    placeholder="blur"
+                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPkCKioBwACiQFRCR8qmwAAAABJRU5ErkJggg=="
+                  />
+
+                  <div className="mx-4">
+                    <h2 className="text-sm text-gray-700 dark:text-gray-200">
+                      Seif Eldin Sameh
+                    </h2>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                      CTO
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <h2 className="topic-title mt-6 text-2xl font-semibold">
+                Front-End Web Development: Stacks, Trending Technologies, and
+                How to Stand Out
+              </h2>
+
+              <hr className="w-32 my-6 text-blue-500" />
+
+              <p className="topic-content text-sm">
+                Front-end web development is the process of creating the visible
+                part of a website or web application. This includes the layout,
+                design, and interactivity of the website. The front-end
+                developer is responsible for making sure that the website looks
+                good and functions properly.
+              </p>
+
+              <Link
+                href="https://www.linkedin.com/pulse/front-end-web-development-stacks-trending-how-stand-out-sameh"
+                target="_blank"
+                className="inline-block mt-4 text-blue-500 underline hover:text-blue-400"
+              >
+                Read more
+              </Link>
+            </div>
+
+            <div>
+              <div className="relative">
+                <Image
+                  className="object-cover object-center w-full h-64 rounded-lg lg:h-80"
+                  src="/assets/post4.webp"
+                  alt="logo"
+                  width={400}
+                  height={400}
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPkCKioBwACiQFRCR8qmwAAAABJRU5ErkJggg=="
+                />
+
+                <div className="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900">
+                  <Image
+                    className="object-cover object-center w-10 h-10 rounded-full"
+                    src="/assets/icon-512x512.png"
+                    alt="logo"
+                    width={80}
+                    height={80}
+                    loading="lazy"
+                    placeholder="blur"
+                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPkCKioBwACiQFRCR8qmwAAAABJRU5ErkJggg=="
+                  />
+
+                  <div className="mx-4">
+                    <h2 className="text-sm text-gray-700 dark:text-gray-200">
+                      Seif Eldin Sameh
+                    </h2>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                      CTO
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <h2 className="topic-title mt-6 text-2xl font-semibold">
+                Bun: The Next Generation JavaScript Runtime
+              </h2>
+
+              <hr className="w-32 my-6 text-blue-500" />
+
+              <p className="topic-content text-sm">
+                Bun is a new JavaScript runtime that is taking the development
+                community by storm. It is known for its speed, performance, and
+                ease of use. Bun is also compatible with most Node.js modules,
+                which makes it easy for Node.js developers to switch to Bun.
+              </p>
+
+              <Link
+                href="https://www.linkedin.com/pulse/bun-next-generation-javascript-runtime-seif-eldin-sameh"
+                target="_blank"
+                className="inline-block mt-4 text-blue-500 underline hover:text-blue-400"
+              >
+                Read more
+              </Link>
+            </div>
           </div>
         </div>
       </section>
