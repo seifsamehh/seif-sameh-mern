@@ -204,7 +204,7 @@ const Header = () => {
         <NavbarItem>
           <Button
             as={Link}
-            href="/assets/cv.pdf"
+            href="/assets/CV.pdf"
             aria-label="resume"
             download
             color="primary"
