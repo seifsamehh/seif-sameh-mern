@@ -83,7 +83,7 @@ const LeftBar = () => {
         <Tooltip placement="right" color="primary" content="Facebook">
           {/* Facebook */}
           <Link
-            href="https://instagram.com/seiffsameh?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
+            href="https://www.facebook.com/seif.sameh.50596/"
             target="_blank"
           >
             <svg
