@@ -204,7 +204,7 @@ const Header = () => {
         <NavbarItem>
           <Button
             as={Link}
-            href="/assets/CV.pdf"
+            href="/assets/Seif Eldin Sameh - Full Stack Web Developer.pdf"
             aria-label="resume"
             download
             color="primary"
